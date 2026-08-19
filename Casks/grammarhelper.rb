@@ -18,7 +18,7 @@ cask "grammarhelper" do
   # macOS 26+ only (owner decision 2026-08-04, current-OS-first). Without the
   # version the cask installs happily on older systems where the app cannot
   # launch at all.
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   # The app is LSUIElement: it keeps running with no dock icon and no window.
   # Without this it survives uninstall and upgrade — still holding the hotkey
