@@ -2,8 +2,8 @@
 # Only the version and the checksum are substituted at publish time; everything
 # else is the contract and changes here, in the source repository.
 cask "deepdrivecleaner" do
-  version "0.3.0"
-  sha256 "aecc16ca308116ffc28d6ed3e7d69170d07ac934a01c9ee16395c5e042cb8823"
+  version "0.4.0"
+  sha256 "e521b508334239578853b480ce8cdd11ffe076a11d96e56e9062e58b2a142a9d"
 
   url "https://github.com/SmartAndPoint/DeepDriveCleaner/releases/download/v#{version}/DeepDriveCleaner-#{version}.zip"
   name "DeepDriveCleaner"
@@ -35,6 +35,7 @@ cask "deepdrivecleaner" do
   zap launchctl: [
         "com.smartandpoint.deepdrivecleaner",
         "com.smartandpoint.deepdrivecleaner.scheduler",
+        "com.smartandpoint.deepdrivecleaner.scheduler-open",
       ],
       trash:     [
         "~/Library/Application Support/DeepDriveCleaner",
