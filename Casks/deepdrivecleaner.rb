@@ -2,8 +2,8 @@
 # Only the version and the checksum are substituted at publish time; everything
 # else is the contract and changes here, in the source repository.
 cask "deepdrivecleaner" do
-  version "0.17.4"
-  sha256 "eaede1f2d1761e04596d1e7886239bb2e63ccf0d79d8a64eb47b1fcf604c1a3e"
+  version "0.18.0"
+  sha256 "9b8e9f386e6919cd008cd4daf882c3ad6f26555ea7af626cc51d3835a272c3d4"
 
   url "https://github.com/SmartAndPoint/DeepDriveCleaner/releases/download/v#{version}/DeepDriveCleaner-#{version}.zip"
   name "DeepDriveCleaner"
