@@ -2,8 +2,8 @@
 # Only the version and the checksum are substituted at publish time; everything
 # else is the contract and changes here, in the source repository.
 cask "grammarhelper" do
-  version "1.22.0"
-  sha256 "ffe8c03b36a204ad75fbadd3678254d04727fa529ff17198abe9fc5ad42d9f92"
+  version "1.23.0"
+  sha256 "021b8ed2bf7d9fe3d84cf3432360b67b5a30f7841e2c3d96071d7acbb227910e"
 
   url "https://github.com/SmartAndPoint/grammarhelper-releases/releases/download/v#{version}/GrammarHelper-#{version}.dmg"
   name "GrammarHelper"
